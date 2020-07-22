@@ -24,13 +24,12 @@ const useStyles = makeStyles((theme) => ({
     margin: 0,
     padding: theme.spacing(1),
 
-    color: theme.palette.grey[50]
+    color: theme.palette.grey[50],
   },
 }));
 
 function Footer() {
   const classes = useStyles();
-
   return (
     <Container className={classes.container}>
       <Grid container>

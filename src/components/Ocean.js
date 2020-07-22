@@ -6,9 +6,12 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
 
     width: '100%',
+    height: '198px',
 
     bottom: 0,
     left: 0,
+
+    overflow: 'hidden',
   },
 
   wave: {

@@ -8,10 +8,16 @@ const useStyles = makeStyles((theme) => ({
   buttonWrap: {
     marginTop: '40%',
     textAlign: 'center',
+
+    '@media screen and (min-width:768px)': {
+      marginTop: '160px',
+    }
   },
   button: {
     width: '40vw',
     height: '40vw',
+    maxWidth: '240px',
+    maxHeight: '240px',
 
     border: '8px solid #424242',
     borderRadius: '50%',

@@ -15,44 +15,16 @@ function Copyright() {
 }
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
   container: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(8),
-    display: 'flex',
-  },
-  iconsWrapper: {
-    height: 120,
-  },
-  icons: {
-    display: 'flex',
-  },
-  icon: {
-    width: 48,
-    height: 48,
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: theme.palette.warning.main,
-    marginRight: theme.spacing(1),
-    '&:hover': {
-      backgroundColor: theme.palette.warning.dark,
-    },
-  },
-  list: {
+    position: 'absolute',
+    left: 0,
+    bottom: 0,
+    zIndex: 10,
+
     margin: 0,
-    listStyle: 'none',
-    padding: 0,
-  },
-  listItem: {
-    paddingTop: theme.spacing(0.5),
-    paddingBottom: theme.spacing(0.5),
-  },
-  language: {
-    marginTop: theme.spacing(1),
-    width: 150,
+    padding: theme.spacing(1),
+
+    color: theme.palette.grey[50]
   },
 }));
 
@@ -60,25 +32,13 @@ function Footer() {
   const classes = useStyles();
 
   return (
-    <Typography component="footer" className={classes.root}>
-      <Container className={classes.container}>
-        <Grid container spacing={5}>
-          <Grid item xs={6} sm={4} md={3}>
-            <Grid container direction="column" justify="flex-end" className={classes.iconsWrapper} spacing={2}>
-              <Grid item className={classes.icons}></Grid>
-              <Grid item>
-                <Copyright />
-              </Grid>
-            </Grid>
-          </Grid>
-          <Grid item xs={6} sm={4} md={2}></Grid>
-          <Grid item xs={6} sm={8} md={4}></Grid>
-          <Grid item>
-            <Typography variant="caption"></Typography>
-          </Grid>
+    <Container className={classes.container}>
+      <Grid container>
+        <Grid item xs={12} sm={12} md={12}>
+          <Copyright />
         </Grid>
-      </Container>
-    </Typography>
+      </Grid>
+    </Container>
   );
 }
 

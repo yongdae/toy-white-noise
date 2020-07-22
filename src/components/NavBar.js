@@ -7,14 +7,13 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    color: theme.palette.common.white,
-    backgroundColor: theme.palette.common.black,
+    color: '#000000e8',
+    backgroundColor: 'transparent'
   },
+  offset: theme.mixins.toolbar,
   title: {
-    fontSize: 24,
-  },
-  placeholder: {
-    height: 64,
+    fontSize: 16,
+    letterSpacing: 10
   },
   toolbar: {
     justifyContent: 'space-between',
@@ -49,12 +48,13 @@ function NavBar() {
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} />
           <Link variant="h6" underline="none" color="inherit" className={classes.title} href="/">
-            백색 소음
+            백색소음
           </Link>
           <div className={classes.right} />
         </Toolbar>
+
       </AppBar>
-      <div className={classes.placeholder} />
+      <div className={classes.offset} />
     </div>
   );
 }

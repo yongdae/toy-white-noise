@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     '&:nth-of-type(1)': {
       zIndex: 1,
 
-      background: 'url(/images/wave/wave1.svg) repeat-x',
+      background: 'url(./images/wave/wave1.svg) repeat-x',
       animation: '$wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite',
     },
     '&:nth-of-type(2)': {

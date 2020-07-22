@@ -2,7 +2,7 @@
   "name": "white-noise",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://yongdae.github.io/white-noise",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -26,7 +26,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "postdeploy": "rm -rf build"
   },
   "eslintConfig": {
     "extends": "react-app"

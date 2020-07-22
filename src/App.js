@@ -1,11 +1,12 @@
 import React from 'react';
-import { Footer, NavBar } from './components';
+import { Footer, Ocean, NavBar } from './components';
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Footer />
+      {/*<NavBar />*/}
+      <Ocean/>
+      {/*<Footer />*/}
     </div>
   );
 }

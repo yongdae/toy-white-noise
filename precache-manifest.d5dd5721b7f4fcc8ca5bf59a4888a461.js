@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afb939220610147319be3170572386a8",
+    "revision": "3bf3ae780a98c86e8ccdae9a4ed1f898",
     "url": "/white-noise/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/white-noise/static/js/2.5730dd91.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b644ab4459fd7d22ac2",
-    "url": "/white-noise/static/js/main.0a544736.chunk.js"
+    "revision": "854922e90b165abb37ec",
+    "url": "/white-noise/static/js/main.efc76aa3.chunk.js"
   },
   {
     "revision": "d7061448545d8e209ddc",

@@ -1,13 +1,17 @@
+import AnimationBackground from './AnimationBackground';
 import Footer from './Footer';
-import MediaButton from './MediaButton';
 import NavBar from './NavBar';
 import Ocean from './Ocean';
+import PlayButton from './PlayButton';
+import Player from './Player';
 import Start from './Start';
 
 export {
+  AnimationBackground,
   Footer,
-  MediaButton,
   NavBar,
   Ocean,
+  PlayButton,
+  Player,
   Start,
 }

@@ -1,3 +1,4 @@
+import _ from "lodash";
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
@@ -67,17 +68,27 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-function NavBar() {
+function NavBar(props) {
   const classes = useStyles();
+
+  const {
+    onTypeClick = () => {
+    }
+  } = props;
 
   const sideRef = React.createRef();
   const [sidebar, setSidebar] = React.useState(false);
 
-  const toggleSidebar = (open) => (event) => {
+  const toggleSidebar = (open, type) => (event) => {
     if (event && event.type === "keydown" && (event.key === "Tab" || event.key === "Shift")) {
       return;
     }
     setSidebar(open);
+
+    if (_.isEmpty(type))
+      return;
+
+    onTypeClick(event, type);
   };
 
   return (
@@ -111,23 +122,23 @@ function NavBar() {
               <ListItemText primary={"목록"}/>
             </ListItem>
             <Divider className={classes.divider} variant="middle"/>
-            <ListItem button onClick={toggleSidebar(false)}>
+            <ListItem button onClick={toggleSidebar(false, 'noise')}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="백색소음"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false)}>
+            <ListItem button onClick={toggleSidebar(false, 'vacuum')}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="청소기"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false)}>
+            <ListItem button onClick={toggleSidebar(false, 'dry')}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="드라이기"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false)}>
+            <ListItem button onClick={toggleSidebar(false, 'sea')}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="파도"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false)}>
+            <ListItem button onClick={toggleSidebar(false, 'rain')}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="비"/>
             </ListItem>

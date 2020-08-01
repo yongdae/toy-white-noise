@@ -1,9 +1,11 @@
 import Footer from './Footer';
 import NavBar from './NavBar';
 import Ocean from './Ocean';
+import Start from './Start';
 
 export {
-  Ocean,
-  NavBar,
   Footer,
+  NavBar,
+  Ocean,
+  Start,
 }

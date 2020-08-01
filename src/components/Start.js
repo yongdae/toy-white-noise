@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "100%",
 
-    backgroundImage: "url('/images/start/background.png')",
+    backgroundImage: "url('./images/start/background.png')",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat"
   },
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
 
     margin: "auto",
 
-    backgroundImage: "url('/images/start/appIcon.png')",
+    backgroundImage: "url('./images/start/appIcon.png')",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat"
   },

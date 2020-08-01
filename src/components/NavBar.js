@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
     height: 24,
 
     cursor: "pointer",
-    backgroundImage: "url('/images/main/menu-button.png')",
+    backgroundImage: "url('./images/main/menu-button.png')",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat"
   },
@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
 
     marginRight: theme.spacing(1),
 
-    backgroundImage: "url('/images/main/appIcon.png')",
+    backgroundImage: "url('./images/main/appIcon.png')",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat"
   },

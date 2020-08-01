@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "calc(100% - 56px)",
 
-    backgroundImage: "url('/sounds/noise.gif')",
+    backgroundImage: "url('./sounds/noise.gif')",
     backgroundSize: "cover",
 
     "@media screen and (min-width:768px)": {
@@ -15,19 +15,19 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   dry: {
-    backgroundImage: "url('/sounds/dry.gif')"
+    backgroundImage: "url('./sounds/dry.gif')"
   },
   noise: {
-    backgroundImage: "url('/sounds/noise.gif')"
+    backgroundImage: "url('./sounds/noise.gif')"
   },
   rain: {
-    backgroundImage: "url('/sounds/rain.gif')"
+    backgroundImage: "url('./sounds/rain.gif')"
   },
   sea: {
-    backgroundImage: "url('/sounds/sea.gif')"
+    backgroundImage: "url('./sounds/sea.gif')"
   },
   vacuum: {
-    backgroundImage: "url('/sounds/vacuum.gif')"
+    backgroundImage: "url('./sounds/vacuum.gif')"
   }
 }));
 

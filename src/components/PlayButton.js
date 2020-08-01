@@ -12,11 +12,11 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
 
     cursor: 'pointer',
-    backgroundImage: "url('/images/main/play-button1.png')",
+    backgroundImage: "url('./images/main/play-button1.png')",
     backgroundSize: "contain"
   },
   active: {
-    backgroundImage: "url('/images/main/stop-button1.png')"
+    backgroundImage: "url('./images/main/stop-button1.png')"
   }
 }));
 

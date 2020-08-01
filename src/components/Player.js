@@ -5,7 +5,7 @@ const Player = (props) => {
   return (
     <div style={{ display: "none" }}>
       {
-        play && <audio src={`/sounds/${type}.mp3`} autoPlay loop/>
+        play && <audio src={`./sounds/${type}.mp3`} autoPlay loop/>
       }
     </div>
   );

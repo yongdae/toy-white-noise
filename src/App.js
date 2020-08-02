@@ -1,18 +1,32 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
-import Button from "@material-ui/core/Button";
-import { AnimationBackground, Footer, PlayButton, NavBar, Ocean, Start, Player } from "./components";
+import {
+  AnimationBackground,
+  Footer,
+  NavBar,
+  Ocean,
+  PlayButton,
+  Player,
+  ShowAnimationButton,
+  Start
+} from "./components";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     height: "100%"
   },
+  content: {
+    position: "absolute",
+    zIndex: 100,
+
+    width: "100%"
+  },
   showGifButton: {
     margin: theme.spacing(2),
-    backgroundColor: 'rgba(255, 255, 255, 0.8)',
-    '&:focus': {
-      backgroundColor: 'rgba(255, 255, 255, 0.8)'
+    backgroundColor: "rgba(255, 255, 255, 0.8)",
+    "&:focus": {
+      backgroundColor: "rgba(255, 255, 255, 0.8)"
     }
   }
 }));
@@ -31,13 +45,8 @@ function App() {
       {!start &&
       <>
         <NavBar onTypeClick={(e, selectType) => setType(selectType)}/>
-        <div style={{ position: "absolute", zIndex: 100, width: "100%" }}>
-          <div style={{ textAlign: "center" }}>
-            <Button className={classes.showGifButton} variant="outlined" onClick={() => setShowGif(!showGif)}>
-              {!showGif && "움직이는 그림 켜기"}
-              {showGif && "움직이는 그림 끄기"}
-            </Button>
-          </div>
+        <div className={classes.content}>
+          <ShowAnimationButton showGif={showGif} onClick={() => setShowGif(!showGif)}/>
           <PlayButton playing={play} onClick={() => setPlay(!play)}/>
           <Player type={type} play={play}/>
         </div>

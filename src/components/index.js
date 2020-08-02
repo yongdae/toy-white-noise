@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Ocean from './Ocean';
 import PlayButton from './PlayButton';
 import Player from './Player';
+import ShowAnimationButton from './ShowAnimationButton';
 import Start from './Start';
 
 export {
@@ -13,5 +14,6 @@ export {
   Ocean,
   PlayButton,
   Player,
+  ShowAnimationButton,
   Start,
 }

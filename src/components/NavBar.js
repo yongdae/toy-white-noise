@@ -80,9 +80,9 @@ function NavBar(props) {
   const [sidebar, setSidebar] = React.useState(false);
 
   const toggleSidebar = (open, type) => (event) => {
-    if (event && event.type === "keydown" && (event.key === "Tab" || event.key === "Shift")) {
+    if (event && event.type === "keydown" && (event.key === "Tab" || event.key === "Shift"))
       return;
-    }
+
     setSidebar(open);
 
     if (_.isEmpty(type))
@@ -122,23 +122,23 @@ function NavBar(props) {
               <ListItemText primary={"목록"}/>
             </ListItem>
             <Divider className={classes.divider} variant="middle"/>
-            <ListItem button onClick={toggleSidebar(false, 'noise')}>
+            <ListItem button onClick={toggleSidebar(false, "noise")}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="백색소음"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false, 'vacuum')}>
+            <ListItem button onClick={toggleSidebar(false, "vacuum")}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="청소기"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false, 'dry')}>
+            <ListItem button onClick={toggleSidebar(false, "dry")}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="드라이기"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false, 'sea')}>
+            <ListItem button onClick={toggleSidebar(false, "sea")}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="파도"/>
             </ListItem>
-            <ListItem button onClick={toggleSidebar(false, 'rain')}>
+            <ListItem button onClick={toggleSidebar(false, "rain")}>
               <ListItemIcon><DonutLargeRoundedIcon/></ListItemIcon>
               <ListItemText primary="비"/>
             </ListItem>

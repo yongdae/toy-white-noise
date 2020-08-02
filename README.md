@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 백색소음 (White-Noise)
 
-## Available Scripts
+### 개요
 
-In the project directory, you can run:
+백색소음은 평상시에 들을 수 있는 자연음으로써<br/>
+전반적으로 일정한 주파수 범위를 나타내는 소리를 말합니다.<br/>
 
-### `yarn start`
+일상에서 자주 접하는 소리이기 때문에 적막감을 해소하는 효과가 있으며,<br/>
+청각적으로 주변과 어울려있다는 공간감을 주어<br/>
+안정감을 주거나 긴장을 풀어주는데에 도움을 주는 소리입니다.<br/>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+이 프로젝트는 React를 통해 만들어져 있으며
+실행 방법은 아래와 같습니다.
 
-### `yarn test`
+* yarn 또는 npm 이 설치된 환경에서 아래의 명령어를 입력해서 사용해주세요.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `yarn start or npm run start`
 
-### `yarn build`
+개발 환경에서는 아래의 주소로 접근이 가능합니다.<br />
+[http://localhost:3000](http://localhost:3000)
+브라우저를 통해 페이지를 열어주세요.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `yarn local or npm run local`
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+일반적인 배포는 'build' 명령어를 사용하지만 배포와 관련된 문제가 있어
+'local' 이라는 별도의 배포 모듈을 만들어내는 명령어를 포함하고 있습니다.

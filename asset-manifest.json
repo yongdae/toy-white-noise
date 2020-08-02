@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/white-noise/static/js/main.efc76aa3.chunk.js",
-    "main.js.map": "/white-noise/static/js/main.efc76aa3.chunk.js.map",
+    "main.js": "/white-noise/static/js/main.869645c9.chunk.js",
+    "main.js.map": "/white-noise/static/js/main.869645c9.chunk.js.map",
     "runtime-main.js": "/white-noise/static/js/runtime-main.9ce21711.js",
     "runtime-main.js.map": "/white-noise/static/js/runtime-main.9ce21711.js.map",
-    "static/js/2.5730dd91.chunk.js": "/white-noise/static/js/2.5730dd91.chunk.js",
-    "static/js/2.5730dd91.chunk.js.map": "/white-noise/static/js/2.5730dd91.chunk.js.map",
+    "static/js/2.6a6eda2b.chunk.js": "/white-noise/static/js/2.6a6eda2b.chunk.js",
+    "static/js/2.6a6eda2b.chunk.js.map": "/white-noise/static/js/2.6a6eda2b.chunk.js.map",
     "index.html": "/white-noise/index.html",
-    "precache-manifest.d5dd5721b7f4fcc8ca5bf59a4888a461.js": "/white-noise/precache-manifest.d5dd5721b7f4fcc8ca5bf59a4888a461.js",
+    "precache-manifest.db9644c374d92364597906d77be315c4.js": "/white-noise/precache-manifest.db9644c374d92364597906d77be315c4.js",
     "service-worker.js": "/white-noise/service-worker.js",
-    "static/js/2.5730dd91.chunk.js.LICENSE.txt": "/white-noise/static/js/2.5730dd91.chunk.js.LICENSE.txt"
+    "static/js/2.6a6eda2b.chunk.js.LICENSE.txt": "/white-noise/static/js/2.6a6eda2b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9ce21711.js",
-    "static/js/2.5730dd91.chunk.js",
-    "static/js/main.efc76aa3.chunk.js"
+    "static/js/2.6a6eda2b.chunk.js",
+    "static/js/main.869645c9.chunk.js"
   ]
 }

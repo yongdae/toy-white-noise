@@ -10,6 +10,9 @@
 안정감을 주거나 긴장을 풀어주는데에 도움을 주는 소리입니다.<br/>
 
 ---
+개발된 페이지 접속 주소는 다음과 같습니다.
+[https://yongdae.github.io/white-noise](https://yongdae.github.io/white-noise)
+---
 
 이 프로젝트는 React를 통해 만들어져 있으며
 실행 방법은 아래와 같습니다.

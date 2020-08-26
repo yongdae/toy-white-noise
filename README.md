@@ -14,7 +14,7 @@
 개발된 페이지 접속 주소는 다음과 같습니다.<br/>
 [https://yongdae.github.io/white-noise](https://yongdae.github.io/white-noise)
 
-[![White Noise](https://github.com/yongdae/white-noise/blob/master/images/Thumbnail.png)](https://youtu.be/FcdbLcZ_a70 "White-Noise")
+[![White Noise](https://github.com/yongdae/white-noise/blob/master/images/Thumbnail.png)](https://youtu.be/N0-FgbhV6W4 "White-Noise")
 
 ---
 

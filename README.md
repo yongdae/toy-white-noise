@@ -14,6 +14,7 @@
 개발된 페이지 접속 주소는 다음과 같습니다.<br/>
 [https://yongdae.github.io/white-noise](https://yongdae.github.io/white-noise)
 
+[[White Noise]](https://youtu.be/FcdbLcZ_a70 "White-Noise")
 ---
 
 이 프로젝트는 React를 통해 만들어져 있으며

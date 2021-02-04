@@ -2,7 +2,7 @@
   "name": "white-noise",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yongdae.github.io/white-noise",
+  "homepage": "https://yongdae.github.io/toy-white-noise",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

@@ -12,7 +12,7 @@
 ---
 
 개발된 페이지 접속 주소는 다음과 같습니다.<br/>
-[https://yongdae.github.io/white-noise](https://yongdae.github.io/white-noise)
+[https://yongdae.github.io/toy-white-noise](https://yongdae.github.io/toy-white-noise)
 
 [![White Noise](https://github.com/yongdae/white-noise/blob/master/images/Thumbnail.png)](https://www.youtube.com/watch?v=AbH7JiE1bNQ&feature=youtu.be "White-Noise")
 

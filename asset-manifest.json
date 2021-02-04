@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/white-noise/static/js/main.869645c9.chunk.js",
-    "main.js.map": "/white-noise/static/js/main.869645c9.chunk.js.map",
-    "runtime-main.js": "/white-noise/static/js/runtime-main.9ce21711.js",
-    "runtime-main.js.map": "/white-noise/static/js/runtime-main.9ce21711.js.map",
-    "static/js/2.6a6eda2b.chunk.js": "/white-noise/static/js/2.6a6eda2b.chunk.js",
-    "static/js/2.6a6eda2b.chunk.js.map": "/white-noise/static/js/2.6a6eda2b.chunk.js.map",
-    "index.html": "/white-noise/index.html",
-    "precache-manifest.db9644c374d92364597906d77be315c4.js": "/white-noise/precache-manifest.db9644c374d92364597906d77be315c4.js",
-    "service-worker.js": "/white-noise/service-worker.js",
-    "static/js/2.6a6eda2b.chunk.js.LICENSE.txt": "/white-noise/static/js/2.6a6eda2b.chunk.js.LICENSE.txt"
+    "main.js": "/toy-white-noise/static/js/main.c6d1c1de.chunk.js",
+    "main.js.map": "/toy-white-noise/static/js/main.c6d1c1de.chunk.js.map",
+    "runtime-main.js": "/toy-white-noise/static/js/runtime-main.b59609c5.js",
+    "runtime-main.js.map": "/toy-white-noise/static/js/runtime-main.b59609c5.js.map",
+    "static/js/2.6a6eda2b.chunk.js": "/toy-white-noise/static/js/2.6a6eda2b.chunk.js",
+    "static/js/2.6a6eda2b.chunk.js.map": "/toy-white-noise/static/js/2.6a6eda2b.chunk.js.map",
+    "index.html": "/toy-white-noise/index.html",
+    "precache-manifest.f2d56033e052008784e4faa356b48576.js": "/toy-white-noise/precache-manifest.f2d56033e052008784e4faa356b48576.js",
+    "service-worker.js": "/toy-white-noise/service-worker.js",
+    "static/js/2.6a6eda2b.chunk.js.LICENSE.txt": "/toy-white-noise/static/js/2.6a6eda2b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ce21711.js",
+    "static/js/runtime-main.b59609c5.js",
     "static/js/2.6a6eda2b.chunk.js",
-    "static/js/main.869645c9.chunk.js"
+    "static/js/main.c6d1c1de.chunk.js"
   ]
 }
